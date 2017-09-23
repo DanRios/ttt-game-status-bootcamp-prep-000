@@ -31,8 +31,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |draw|
-    draw = "X" || "O"
-  end
-  false
+!board.find{|i| i = " "}
 end
