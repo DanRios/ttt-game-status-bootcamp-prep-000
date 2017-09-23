@@ -34,4 +34,5 @@ def full?(board)
   board.all? do |in_progress|
     in_progress = " "
   end
+  in_progress = false
 end
