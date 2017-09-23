@@ -41,4 +41,5 @@ end
 
 
 def over?
+  full?(board) || won?(board)
 end
