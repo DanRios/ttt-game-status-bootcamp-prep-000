@@ -36,4 +36,3 @@ def full?(board)
 end
 in_progress
 end
-
