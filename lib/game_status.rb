@@ -31,5 +31,5 @@ def won?(board)
 end
 
 def full?(board)
-!board.find{|i| i = " "}
+!board.find{|i| i == " "}
 end
