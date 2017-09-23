@@ -36,3 +36,10 @@ def full?(board)
 end
 in_progress
 end
+
+def draw?(board)
+  if full?(board) && !won?(board)
+    return true
+  end
+  false
+end
