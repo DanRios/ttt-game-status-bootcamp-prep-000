@@ -48,4 +48,3 @@ def winner(board)
     return board[done[0]]
   end
 end
-
