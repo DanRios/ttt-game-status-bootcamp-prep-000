@@ -44,3 +44,10 @@ def winner(board)
     return board[done[0]]
   end
 end
+
+def over?(board)
+  if full?(board) || won?(boad)
+    return true
+  end
+  false
+end
