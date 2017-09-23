@@ -29,19 +29,3 @@ def won?(board)
   end
   false
 end
-
-def full?(board)
-  board.all? do |input|
-    input = "X" || "O"
-    if input != won?(board)
-      true
-    else input == " "
-      false
-    end
-  end      
-end
-
-
-def draw?(board)
-
-end
