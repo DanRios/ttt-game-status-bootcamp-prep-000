@@ -33,3 +33,8 @@ end
 def full?(board)
 !board.find{|i| i == " "}
 end
+
+def draw?(board)
+  if full?(board) == true && !won?(board)
+  end
+end
