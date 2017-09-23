@@ -31,8 +31,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |in_progress|
-    in_progress = " "
+  board.all? do |draw|
+    draw = "X" || "O"
   end
-  in_progress = false
+  false
 end
