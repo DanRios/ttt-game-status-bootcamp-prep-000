@@ -14,4 +14,3 @@ WIN_COMBINATIONS = [
   [0, 4, 8], #left_diagonal_win
   [2, 4, 6] #right_diagonal_win
 ]
-
