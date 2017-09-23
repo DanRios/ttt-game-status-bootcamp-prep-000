@@ -31,14 +31,6 @@ def won?(board)
 end
 
 def full?(board)
-  draw = board.all? do |user_input|
-    user_input = "X" || "O"
-end
-in_progress = board.any?{"X" || "O"}
-return in_progress
-end
-in_progress
-draw
 end
 
 def draw?(board)
@@ -47,3 +39,4 @@ def draw?(board)
   end
   false
 end
+
