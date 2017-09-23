@@ -16,4 +16,12 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+  position_taken?.select do |get|
+    get = gets.strip
+    if get == "X" || "O" == WIN_COMBINATIONS
+    WIN_COMBINATIONS
+  end
 end
+false
+end
+
