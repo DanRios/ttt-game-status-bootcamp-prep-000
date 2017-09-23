@@ -29,3 +29,11 @@ def won?(board)
   end
   false
 end
+
+def full?(board)
+  board.all? do |in_progress|
+    in_progress = " "
+  end
+end
+
+    
