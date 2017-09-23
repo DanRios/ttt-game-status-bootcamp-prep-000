@@ -29,3 +29,10 @@ def won?(board)
   end
   false
 end
+
+def full?(board)
+  in_progress = board.all? do |user_input|
+    user_input = "X" || user_input = "O"
+  end
+  in_progress
+end
