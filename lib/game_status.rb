@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  position_taken(board,index)gets.strip
+  position_taken?gets.strip
   if position_taken(board, index) == WIN_COMBINATIONS.between?(0, 7)
     return WIN_COMBINATIONS
   end
