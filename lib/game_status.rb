@@ -35,10 +35,13 @@ def full?(board)
     input = "X" || "O"
     if input != won?(board)
       true
+    else input == " "
+      false
     end
   end      
 end
 
 
 def draw?(board)
+  
 end
