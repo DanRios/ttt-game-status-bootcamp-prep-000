@@ -41,3 +41,11 @@ end
 def over?
   full?(board) || won?(board)
 end
+
+def winner(board)
+  done = won?(board)
+  if done
+    return board[done[0]]
+  end
+end
+
